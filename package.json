@@ -1,5 +1,5 @@
 {
-  "name": "brjs-webbuild",
+  "name": "webbuild",
   "version": "0.0.1",
   "description": "make a single js file out of many others",
   "main": "lib/index.js",
@@ -7,7 +7,8 @@
     "module-deps": "~1.0.2",
     "JSONStream": "~0.7.1",
     "browser-builtins": "~2.0.5",
-    "event-stream": "~3.0.16"
+    "event-stream": "~3.0.16",
+    "browser-resolve": "~1.1.4"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
