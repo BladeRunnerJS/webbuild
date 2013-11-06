@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "make a single js file out of many others",
   "main": "lib/index.js",
+  "repository": "https://github.com/BladeRunnerJS/webbuild.git",
   "dependencies": {
     "module-deps": "~1.0.2",
     "JSONStream": "~0.7.1",
