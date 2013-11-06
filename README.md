@@ -1,4 +1,4 @@
-brjs-webbuild
+webbuilder
 =============
 
 Creates a bundle suitable for use in the browser or node.  Uses the browserify internals.
@@ -14,7 +14,7 @@ You can use it by requiring it from node:
 ```javascript
 
     var path = require('path');
-    var webbuild = require('brjs-webbuild');
+    var webbuilder = require('webbuilder');
 
     // these are the defaults
     var options = {
@@ -24,12 +24,12 @@ You can use it by requiring it from node:
 
     var modulePath = path.resolve(process.cwd(), "myModule");
 
-    webbuild(modulePath, options);
+    webbuilder(modulePath, options);
 
 ```
 
 You can also run it from the command line:
 
 ```
-    node brjs-webbuild --includeSystem=false myModule
+    node webbuilder --includeSystem=false myModule
 ```
