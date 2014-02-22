@@ -1,6 +1,6 @@
 {
   "name": "webbuilder",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "make a single js file out of many others",
   "main": "lib/index.js",
   "repository": "https://github.com/BladeRunnerJS/webbuilder.git",
@@ -14,6 +14,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "me@kybernetikos.com",
   "license": "LGPL"
 }
